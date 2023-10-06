@@ -24,6 +24,7 @@
         "baseUrl": ".",
         "paths": {
             "@assets/*": ["src/assets/*"],
+            "@store/*": ["src/store/*"],
             "@components/*": ["src/components/*"],
             "@configs/*": ["src/configs/*"],
             "@contexts/*": ["src/contexts/*"],

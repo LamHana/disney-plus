@@ -9,7 +9,7 @@ import VideoMarvel from '@assets/videos/marvel.mp4';
 import VideoStarwars from '@assets/videos/star-war.mp4';
 import VideoNational from '@assets/videos/national.mp4';
 
-import * as Styled from './viewers.styled';
+import * as Styled from './Viewers.styled';
 
 type ItemType = {
     id: number;

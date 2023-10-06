@@ -11,15 +11,17 @@ export const listOfFilms = [
         title: 'My music story',
         titleImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/97BB36F8B9FC053F561894DD7B1C42C4FD20E63560F481CBCB3B9D3600CFCA3B/scale?width=1440&aspectRatio=1.78',
-        subTitle: '2019 • 53m • Documentary, Biographical, Music',
+        subTitle: '2019 • 53m ',
+        genre: 'Documentary, Biographical, Music',
+        video: 'https://www.youtube.com/embed/YGehvENK74o?si=arBl0pQJW5URdMUz',
     },
     {
         id: '35crOx71hzIr2W1M7SAJ',
         backgroundImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FA1548A6B82C9991B1D38DF251A388FEA2483904510FBC73E150F67F7BDE38C0/scale?width=1440&aspectRatio=1.78&format=jpeg',
         title: 'Tangled',
-        subTitle:
-            '2010 • 1h 40m • Family, Fantasy, Animation, Action-Adventure, Musical',
+        subTitle: '2010 • 1h 40m ',
+        genre: 'Family, Fantasy, Animation, Action-Adventure, Musical',
         type: 'trending',
         cardImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/0ECD36DD35658155915685271440833C29ED87E788CF8AE111AA6BCA6B939C37/scale?width=400&aspectRatio=1.78&format=jpeg',
@@ -27,6 +29,7 @@ export const listOfFilms = [
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F70235E3463A6F246EB462ED5379F9D41D6318E80098BD40900E7AFC1C7D932D/scale?width=1440&aspectRatio=1.78',
         description:
             "When the kingdom's most wanted bandit is taken hostage by Rapunzel — a teen with 70 feet of golden hair who's looking to escape the tower where she's been locked away for years — the unlikely duo sets off on a hair-raising escapade.",
+        video: 'https://www.youtube.com/embed/ILRs2r6lcHY?si=62DCGbYILRGKgu72',
     },
     {
         id: '3Gbhv1H0KedAXWwo6ld0',
@@ -37,15 +40,17 @@ export const listOfFilms = [
         type: 'trending',
         titleImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9562874BAB22B22A698368819B9EBF30FEB0291543552EB2416A5A61A73F63F4/scale?width=1440&aspectRatio=1.78',
-        subTitle:
-            '2016 • 1h 47m • Family, Fantasy, Animation, Action-Adventure, Musical',
+        subTitle: '2016 • 1h 47m ',
+        genre: 'Family, Fantasy, Animation, Action-Adventure, Musical',
         title: 'Moana',
         cardImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/501783804F435A386DBC4736F529A8EF664B1817CCB0B552E52D825B85B0A97B/scale?width=400&aspectRatio=1.78&format=jpeg',
+        video: 'https://www.youtube.com/embed/cPAbx5kgCJo?si=SdD9VkS7zXw1tZ51',
     },
     {
         id: '4dyjHEsMW0fGAlpoIMAJ',
-        subTitle: '2018 • 7m • Family, Fantasy, Kids, Animation',
+        subTitle: '2018 • 7m ',
+        genre: 'Family, Fantasy, Kids, Animation',
         title: 'Bao',
         titleImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D7AEE1F05D10FC37C873176AAA26F777FC1B71E7A6563F36C6B1B497CAB1CEC2/scale?width=1440&aspectRatio=1.78',
@@ -56,6 +61,7 @@ export const listOfFilms = [
         type: 'recommend',
         cardImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/706C68FF1CEA5A9C2AE0608892C2DF79E4AC1F0DDB4BFF7FE6DAFC36DAFC0286/scale?width=400&aspectRatio=1.78&format=jpeg',
+        video: 'https://www.youtube.com/embed/ZsBl3kpOD-Q?si=MbMIzH-itQAc7V7_',
     },
     {
         id: '6EJOjtOUUQaoDdstBTpr',
@@ -64,16 +70,19 @@ export const listOfFilms = [
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CC08686E87BDB2D83A46C9608CB2F43018381A82608C380649351A00ED0D2919/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals',
         description:
             'ASSEMBLED is an immersive series of documentary-style specials examining the creation of Marvel Studios’ thrilling new shows and theatrical releases.',
-        subTitle: '2021 • 1 Season • Docuseries, Anthology',
+        subTitle: '2021 • 1 Season',
+        genre: 'Docuseries, Anthology',
         backgroundImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D53D1F5D357587A8D09067AB09FFC7096F837CBAAE02BDC3C0E75814471A1E36/scale?width=1440&aspectRatio=1.78&format=jpeg',
         titleImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/37D80C5D1AB0BA65C63588311EC60A07342F60F91D402C28B8E1137AF6A30549/scale?width=1440&aspectRatio=1.78',
         title: 'Assembled',
+        video: 'https://www.youtube.com/embed/aFgtBbSwxxw?si=gEImEhJLbp6bYePs',
     },
     {
         id: 'DYt6dtB7kskEZ1BWDuFT',
-        subTitle: '2006 - 2013 • 5 Seasons • Kids, Animation',
+        subTitle: '2006 - 2013 • 5 Seasons',
+        genre: 'Kids, Animation',
         cardImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/509E4D9F0BF98A9DC4CDD38954380782F6AB2664E503CC7652A37D18D06666BF/scale?width=400&aspectRatio=1.78&format=jpeg',
         backgroundImg:
@@ -84,6 +93,7 @@ export const listOfFilms = [
         description:
             'Mickey entertains preschoolers by inviting them to join him and his friends for a date at the Clubhouse. Using early math learning and problem solving skills, he leads kids on an interactive adventure of learning and fun.',
         title: 'Mickey mouse',
+        video: 'https://www.youtube.com/embed/83sdwFOL1r8?si=zD6htC6ITT9Llk1W',
     },
     {
         id: 'NhnXE3L1GkyGD3qdUQdE',
@@ -96,8 +106,10 @@ export const listOfFilms = [
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/341AE85B6C1423B9042B5F2E786645EE551B9D546C3D263B220A4727617FD2B8/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals',
         titleImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4A67A42FB16607DAE7E22266D3F00181965178ED1884047C2D982EE7D89D3554/scale?width=1440&aspectRatio=1.78',
-        subTitle: '2021 • 1 Season • Science Fiction, Action-Adventure, Buddy',
+        subTitle: '2021 • 1 Season ',
+        genre: 'Science Fiction, Action-Adventure, Buddy',
         type: 'new',
+        video: 'https://www.youtube.com/embed/IWBsDaFWyTE?si=yIFpEe56TtMJ5bXk',
     },
     {
         id: 'OHPEtjUooT292XpXO2mV',
@@ -107,16 +119,18 @@ export const listOfFilms = [
         description:
             'While Helen is called on to lead a campaign to bring back the Supers, Bob navigates the day-to-day heroics of “normal” life at home with Violet, Dash and Jack-Jack, whose superpowers are about to be discovered. Their mission is derailed, however, when a new villain emerges with a brilliant and dangerous plot that threatens everything. But with Frozone by their side, the Parrs can take on anything.',
         title: 'Incredibles 2',
-        subTitle:
-            '2018 • 1h 58m • Science Fiction, Family, Animation, Action-Adventure',
+        subTitle: '2018 • 1h 58m ',
+        genre: ' Science Fiction, Family, Animation, Action-Adventure',
         cardImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C0A883EAB54DDDC924018D08CF4555EE72B3E9A8C214BDADF29CB82B5E2275D7/scale?width=400&aspectRatio=1.78&format=jpeg',
         titleImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2041CE26663867FC4EF20377B8625BD629E619452E23BCDB1AB259DD475C2EA1/scale?width=1440&aspectRatio=1.78',
+        video: 'https://www.youtube.com/embed/i5qOzqD9Rms?si=0iEtrvN83iFG2Rum',
     },
     {
         id: 'RR88W6VTzKUziXKUi2qu',
-        subTitle: '1989 - 2019 • 31 Seasons • Comedy, Animation',
+        subTitle: '1989 - 2019 • 31 Seasons ',
+        genre: 'Comedy, Animation',
         description:
             'This animated comedy focuses on the eponymous family in the town of Springfield. The head of the Simpson family, Homer, is not a typical family man. A nuclear-plant employee, he does his best to lead his family but often finds that they are leading him. The family includes loving, blue-haired matriarch Marge, troublemaking son Bart, overachieving daughter Lisa and baby Maggie.',
         type: 'trending',
@@ -127,6 +141,7 @@ export const listOfFilms = [
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/47A6FB38D95B3A5EF5583C9EED0B698ED2992CBA4AC7222DD3269DC92DFA03A6/scale?width=1440&aspectRatio=1.78',
         backgroundImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/223DAE104BE1175F374C4AACAC0EB5B8B0DB9C49839AA2E10085533DDFE07A8E/scale?width=1440&aspectRatio=1.78&format=jpeg',
+        video: 'https://www.youtube.com/embed/gBSkIN4mCT4?si=ZqF389cItHyqA-Ia',
     },
     {
         id: 'U8JzMFR0YaiU5qa0wUvz',
@@ -137,10 +152,12 @@ export const listOfFilms = [
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A31BE6502DC7A3A01DAF58DF7E91AB6FF598A078C8FA88A1DB2D7B7E25439464/scale?width=1440&aspectRatio=1.78',
         description:
             'When Bob Parr visits designer Edna Mode for help with his high-energy toddler, she pulls an all-nighter designing a supersuit to harness Jack-Jack’s seemingly limitless powers.',
-        subTitle: '2018 • 7m • Family, Comedy, Animation',
+        subTitle: '2018 • 7m ',
+        genre: 'Family, Comedy, Animation',
         type: 'recommend',
         cardImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/01666FAA085FF29B709DB13975E563E5E047DAAFF7D8F331201CB73F3C30027E/scale?width=400&aspectRatio=1.78&format=jpeg',
+        video: 'https://www.youtube.com/embed/PtXD9yFjHIA?si=XYdW80fOY0ppYi9e',
     },
     {
         id: 'We5I4aOrOoMiD2vZTTOM',
@@ -152,10 +169,11 @@ export const listOfFilms = [
         type: 'original',
         titleImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DDFF0FDF457E092EE53149CE7DB5BD14CB97E27B92D2D087E7C687B4E3073DE2/scale?width=1440&aspectRatio=1.78',
-        subTitle:
-            '2021 • 1 Season • Science Fiction, Fantasy, Action-Adventure',
+        subTitle: '2021 • 1 Season ',
+        genre: 'Science Fiction, Fantasy, Action-Adventure',
         description:
             'Marvel Studios LEGENDS traces Wanda Maximoff’s evolution from an adversary of The Avengers to a powerful ally, and highlights one special relationship destined to shape her future in unexpected ways…',
+        video: 'https://www.youtube.com/embed/haUHiPl_e3U?si=XfXunGgRwvo8tT5A',
     },
     {
         id: 'Y6s8NyzawwBlEXAZm0Rq',
@@ -167,9 +185,11 @@ export const listOfFilms = [
             "Jamie Foxx leads an all-star cast in this hilarious, heart-filled adventure. Pixar’s 'Soul' introduces Joe, who lands the gig of his life at the best jazz club in town. But one misstep lands Joe in a fantastical place: The Great Before. There, he teams up with soul 22 (Tina Fey), and together they find the answers to some of life’s biggest questions.",
         cardImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E486A02FA7B60669E77958D4FAE567AA5C9C57344006E1D1ADFC080719545166/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals',
-        subTitle: '2020 • 1h 49m • Family, Comedy, Fantasy, Animation, Music',
+        subTitle: '2020 • 1h 49m',
+        genre: 'Family, Comedy, Fantasy, Animation, Music',
         backgroundImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/56EEBB17CC25C9FE16E334C34EF96BF7D91EC9BA3B438F88FB24E1C2AE785E03/scale?width=1440&aspectRatio=1.78&format=jpeg',
+        video: 'https://www.youtube.com/embed/xOsLIiBStEs?si=SCBi5ViCQ1VXF0uF',
     },
     {
         id: 'eXhaR3GHi0XkT4yBio7n',
@@ -182,8 +202,10 @@ export const listOfFilms = [
         cardImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A13BEC78ACF76FC91A94A1595A62A42CC26DFC6259332C74E061ADA379024E5C/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals',
         type: 'original',
-        subTitle: '2020 • 6m • Family, Animation',
+        subTitle: '2020 • 6m',
+        genre: 'Family, Animation',
         title: 'Burrow',
+        video: 'https://www.youtube.com/embed/apx1aUP3MqA?si=-zGXxghRFOdtsMZ_',
     },
     {
         id: 'hAhn3dysJkKmELjSUvcD',
@@ -197,8 +219,10 @@ export const listOfFilms = [
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1E0501AFBAFCA1ABB5D31DBA7D1A913B2A35D70FD3DFD804939B71901577161D/scale?width=400&aspectRatio=1.78&format=jpeg',
         subTitle:
             '2021 • 1h 52m • Family, Fantasy, Animation, Action-Adventure',
+        genre: 'Family, Animation',
         title: 'Raya',
         type: 'new',
+        video: 'https://www.youtube.com/embed/1VIZ89FEjYI?si=h76BjgjMa5lrp_xw',
     },
     {
         id: 'tgw0vNtyWD7uVg9auDRQ',
@@ -207,16 +231,19 @@ export const listOfFilms = [
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/50B933E83609BEEFEDFA177A6D96DBFA7804C14F70A0B5AB314E892E65498ACF/scale?width=1440&aspectRatio=1.78',
         description:
             'Garfield is adopted by a greedy Lord with nefarious plans to open up his estate as a hunting ground.',
-        subTitle: '2006 • 1h 19m • Family, Comedy, Kids',
+        subTitle: '2006 • 1h 19m ',
+        genre: 'Family, Comedy, Kids',
         cardImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B983FF22BA64B6E19E0D3267280819B26758CFB765E8BED1099D11E320612953/scale?width=400&aspectRatio=1.78&format=jpeg',
         type: 'new',
         backgroundImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4E9E81584305009D6385F6178D4B6930E97CD6EC4A3B53C818400DEF778FFA9A/scale?width=1440&aspectRatio=1.78&format=jpeg',
+        video: 'https://www.youtube.com/embed/1u0rQ7J3oS4?si=FpzRgBkLRhNQqZR_',
     },
     {
         id: 'ysj2ARAFC9OkGA8dpgtS',
-        subTitle: '2015 • 1h 35m • Coming of Age, Family, Animation',
+        subTitle: '2015 • 1h 35m ',
+        genre: 'Coming of Age, Family, Animation',
         description:
             'When 11-year-old Riley moves to a new city, her Emotions team up to help her through the transition. Joy, Fear, Anger, Disgust and Sadness work together, but when Joy and Sadness get lost, they must journey through unfamiliar places to get back home.',
         backgroundImg:
@@ -227,5 +254,6 @@ export const listOfFilms = [
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5C647DF3FFBFA343CFEA84AC715148F25F9E86F398B408010CC403E7654FB908/scale?width=1440&aspectRatio=1.78',
         cardImg:
             'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/87F1DCF36049558159913ADFD18A800DE1121771540033EC3A7651B8FE154CEB/scale?width=400&aspectRatio=1.78&format=jpeg',
+        video: 'https://www.youtube.com/embed/k1oXx4delIY?si=j0zxF1IcoorEtPPI',
     },
 ];
