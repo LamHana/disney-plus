@@ -1,9 +1,7 @@
-import { useState } from 'react';
+import { useState, createContext } from 'react';
 import {
-    AppBar,
     Avatar,
     Box,
-    Button,
     Container,
     IconButton,
     Menu,
@@ -13,43 +11,53 @@ import {
     Typography,
 } from '@mui/material';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+import LogoImg from '@assets/images/logo.svg';
+import HomeIcon from '@assets/images/home-icon.svg';
+import WatchListIcon from '@assets/images/watchlist-icon.svg';
+import OriginalIcon from '@assets/images/original-icon.svg';
+import SeriesIcon from '@assets/images/series-icon.svg';
+
+import * as Styled from './Header.styled';
+import { Link, useNavigate } from 'react-router-dom';
+import { useTheme } from '@material-ui/core';
+// import MenuIcon from '@mui/icons-material/Menu';
+// import ButtonIcon from '@mui/material/IconButton'
+const pages = [
+    { id: 1, name: 'Home', icon: HomeIcon, link: '/' },
+    { id: 2, name: 'WatchList', icon: WatchListIcon, link: '/watchlist' },
+    { id: 3, name: 'Original', icon: OriginalIcon, link: '/original' },
+    { id: 4, name: 'Series', icon: SeriesIcon, link: '/series' },
+];
+
+const ColorModeContext = createContext({ toggleColorMode: () => {} });
 
 function Header() {
-    const [anchorElNav, setAnchorElNav] = useState(null);
-
-    // const handleOpenNavMenu = (event: string) => {
-    //     setAnchorElNav(event.currentTarget);
-    // };
+    const theme = useTheme();
+    const colorMode = React.useContext(ColorModeContext);
+    const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
+    const [isDarkMode, setIsDa];
+    const navigate = useNavigate();
 
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
     };
 
+    const handleOnClick = (link) => {
+        navigate(`${link}`);
+    };
+
     return (
-        <AppBar position="static">
+        <Styled.Navbar position="sticky">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    {/* <AdbIcon
-                        sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}
-                    /> */}
-                    <Typography
-                        variant="h6"
-                        noWrap
-                        component="a"
-                        href="#app-bar-with-responsive-menu"
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'none', md: 'flex' },
-                            fontFamily: 'monospace',
-                            fontWeight: 700,
-                            letterSpacing: '.3rem',
-                            color: 'inherit',
-                            textDecoration: 'none',
-                        }}
-                    >
-                        LOGO
-                    </Typography>
+                    <Styled.Logo>
+                        <Link to={`/`}>
+                            <img
+                                alt="logo"
+                                src={LogoImg}
+                            />
+                        </Link>
+                    </Styled.Logo>
 
                     <Box
                         sx={{
@@ -57,16 +65,16 @@ function Header() {
                             display: { xs: 'flex', md: 'none' },
                         }}
                     >
-                        {/* <IconButton
+                        {/* <ButtonIcon
                             size="large"
                             aria-label="account of current user"
                             aria-controls="menu-appbar"
                             aria-haspopup="true"
                             onClick={handleOpenNavMenu}
                             color="inherit"
-                        > */}
-                        {/* <MenuIcon /> */}
-                        {/* </IconButton> */}
+                        >
+                            <MenuIcon />
+                        </ButtonIcon> */}
                         <Menu
                             id="menu-appbar"
                             anchorEl={anchorElNav}
@@ -87,37 +95,21 @@ function Header() {
                         >
                             {pages.map((page) => (
                                 <MenuItem
-                                    key={page}
+                                    key={page.id}
                                     onClick={handleCloseNavMenu}
                                 >
                                     <Typography textAlign="center">
-                                        {page}
+                                        <img
+                                            src={page.icon}
+                                            alt={page.name}
+                                        />
+                                        <Link to={page.link}>{page.name}</Link>
                                     </Typography>
                                 </MenuItem>
                             ))}
                         </Menu>
                     </Box>
-                    {/* <AdbIcon
-                        sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }}
-                    /> */}
-                    <Typography
-                        variant="h5"
-                        noWrap
-                        component="a"
-                        href="#app-bar-with-responsive-menu"
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'flex', md: 'none' },
-                            flexGrow: 1,
-                            fontFamily: 'monospace',
-                            fontWeight: 700,
-                            letterSpacing: '.3rem',
-                            color: 'inherit',
-                            textDecoration: 'none',
-                        }}
-                    >
-                        LOGO
-                    </Typography>
+
                     <Box
                         sx={{
                             flexGrow: 1,
@@ -125,13 +117,17 @@ function Header() {
                         }}
                     >
                         {pages.map((page) => (
-                            <Button
-                                key={page}
-                                onClick={handleCloseNavMenu}
+                            <Styled.ButtonNav
+                                key={page.id}
+                                onClick={() => handleOnClick(page.link)}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
                             >
-                                {page}
-                            </Button>
+                                <img
+                                    src={page.icon}
+                                    alt={page.name}
+                                />
+                                {page.name}
+                            </Styled.ButtonNav>
                         ))}
                     </Box>
 
@@ -160,7 +156,7 @@ function Header() {
                     </Box>
                 </Toolbar>
             </Container>
-        </AppBar>
+        </Styled.Navbar>
     );
 }
 export default Header;
