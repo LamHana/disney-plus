@@ -39,7 +39,7 @@ const Viewers = () => {
                 return (
                     <Styled.Wrap key={item.id}>
                         <img src={item.img} />
-                        <video
+                        <Styled.Video
                             loop
                             preload="none"
                             muted
@@ -51,7 +51,7 @@ const Viewers = () => {
                                 src={item.video}
                                 type="video/mp4"
                             />
-                        </video>
+                        </Styled.Video>
                     </Styled.Wrap>
                 );
             })}

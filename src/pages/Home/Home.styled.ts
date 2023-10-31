@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import HomeBackground from '@assets/images/home-background.png';
+import HomeBackground from '@assets/videos/pixar.mp4';
 
-export const Container = styled.main`
+export const Wrapper = styled.main`
     position: relative;
     min-height: calc(100vh - 70px);
     padding: 0 calc(3.5vw + 5px);

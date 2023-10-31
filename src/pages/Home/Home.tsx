@@ -12,6 +12,7 @@ export default function Home() {
     const navigate = useNavigate();
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
+
     const handleClose = () => {
         setOpen(false);
         navigate('/home');
@@ -26,16 +27,20 @@ export default function Home() {
 
     useEffect(() => {
         handlePageChange();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [movieId]);
     return (
-        <Styled.Container>
+        <Styled.Wrapper>
             <MovieDetail
                 open={open}
                 handleClose={handleClose}
             />
             <CarouselBanner />
             <Viewers />
-            <MovieList handleOpen={handleOpen} />
-        </Styled.Container>
+            <MovieList
+                handleOpen={handleOpen}
+                text="Recommended for you"
+            />
+        </Styled.Wrapper>
     );
 }

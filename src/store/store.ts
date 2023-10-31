@@ -1,10 +1,12 @@
 import movieReducer from '@components/Movie/slice/MovieSlice';
+import userReducer from '@components/Header/slide/userSlice';
+
 import { configureStore } from '@reduxjs/toolkit';
-// ...
 
 export const store = configureStore({
     reducer: {
         movie: movieReducer,
+        user: userReducer,
     },
 });
 

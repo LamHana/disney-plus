@@ -32,228 +32,228 @@ export const listOfFilms = [
         video: 'https://www.youtube.com/embed/ILRs2r6lcHY?si=62DCGbYILRGKgu72',
     },
     {
-        id: '3Gbhv1H0KedAXWwo6ld0',
+        id: '3Gbhv1H0KedAXWwo6ld0 ',
         backgroundImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/AAC4808815AE5721A6AAB372DD14B8CE2E7E9EFF3A27942EF2B6B45EBF4E65CB/scale?width=1440&aspectRatio=1.78&format=jpeg',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/AAC4808815AE5721A6AAB372DD14B8CE2E7E9EFF3A27942EF2B6B45EBF4E65CB/scale?width=1440&aspectRatio=1.78&format=jpeg ',
         description:
-            'Moana sets sail on a daring mission to save her people. Along the way, she meets the mighty demigod Maui–together they cross the ocean on a fun-filled, action-packed voyage from Walt Disney Animation Studios.',
-        type: 'trending',
+            'Moana sets sail on a daring mission to save her people. Along the way, she meets the mighty demigod Maui–together they cross the ocean on a fun-filled, action-packed voyage from Walt Disney Animation Studios. ',
+        type: 'trending ',
         titleImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9562874BAB22B22A698368819B9EBF30FEB0291543552EB2416A5A61A73F63F4/scale?width=1440&aspectRatio=1.78',
-        subTitle: '2016 • 1h 47m ',
-        genre: 'Family, Fantasy, Animation, Action-Adventure, Musical',
-        title: 'Moana',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9562874BAB22B22A698368819B9EBF30FEB0291543552EB2416A5A61A73F63F4/scale?width=1440&aspectRatio=1.78 ',
+        subTitle: '2016 • 1h 47m  ',
+        genre: 'Family, Fantasy, Animation, Action-Adventure, Musical ',
+        title: 'Moana ',
         cardImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/501783804F435A386DBC4736F529A8EF664B1817CCB0B552E52D825B85B0A97B/scale?width=400&aspectRatio=1.78&format=jpeg',
-        video: 'https://www.youtube.com/embed/cPAbx5kgCJo?si=SdD9VkS7zXw1tZ51',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/501783804F435A386DBC4736F529A8EF664B1817CCB0B552E52D825B85B0A97B/scale?width=400&aspectRatio=1.78&format=jpeg ',
+        video: 'https://www.youtube.com/embed/cPAbx5kgCJo?si=SdD9VkS7zXw1tZ51 ',
     },
     {
-        id: '4dyjHEsMW0fGAlpoIMAJ',
-        subTitle: '2018 • 7m ',
-        genre: 'Family, Fantasy, Kids, Animation',
-        title: 'Bao',
+        id: '4dyjHEsMW0fGAlpoIMAJ ',
+        subTitle: '2018 • 7m  ',
+        genre: 'Family, Fantasy, Kids, Animation ',
+        ' title': 'Bao ',
         titleImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D7AEE1F05D10FC37C873176AAA26F777FC1B71E7A6563F36C6B1B497CAB1CEC2/scale?width=1440&aspectRatio=1.78',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D7AEE1F05D10FC37C873176AAA26F777FC1B71E7A6563F36C6B1B497CAB1CEC2/scale?width=1440&aspectRatio=1.78 ',
         description:
-            'A Chinese mom who’s sad when her grown son leaves home gets another chance at motherhood when one of her dumplings springs to life. But she finds that nothing stays cute and small forever.',
+            'A Chinese mom who’s sad when her grown son leaves home gets another chance at motherhood when one of her dumplings springs to life. But she finds that nothing stays cute and small forever. ',
         backgroundImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4F39B7E16726ECF419DD7C49E011DD95099AA20A962B0B10AA1881A70661CE45/scale?width=1440&aspectRatio=1.78&format=jpeg',
-        type: 'recommend',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4F39B7E16726ECF419DD7C49E011DD95099AA20A962B0B10AA1881A70661CE45/scale?width=1440&aspectRatio=1.78&format=jpeg ',
+        type: 'recommend ',
         cardImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/706C68FF1CEA5A9C2AE0608892C2DF79E4AC1F0DDB4BFF7FE6DAFC36DAFC0286/scale?width=400&aspectRatio=1.78&format=jpeg',
-        video: 'https://www.youtube.com/embed/ZsBl3kpOD-Q?si=MbMIzH-itQAc7V7_',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/706C68FF1CEA5A9C2AE0608892C2DF79E4AC1F0DDB4BFF7FE6DAFC36DAFC0286/scale?width=400&aspectRatio=1.78&format=jpeg ',
+        video: 'https://www.youtube.com/embed/ZsBl3kpOD-Q?si=MbMIzH-itQAc7V7_ ',
     },
     {
-        id: '6EJOjtOUUQaoDdstBTpr',
-        type: 'original',
+        id: '6EJOjtOUUQaoDdstBTpr ',
+        type: 'original ',
         cardImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CC08686E87BDB2D83A46C9608CB2F43018381A82608C380649351A00ED0D2919/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CC08686E87BDB2D83A46C9608CB2F43018381A82608C380649351A00ED0D2919/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals ',
         description:
-            'ASSEMBLED is an immersive series of documentary-style specials examining the creation of Marvel Studios’ thrilling new shows and theatrical releases.',
-        subTitle: '2021 • 1 Season',
-        genre: 'Docuseries, Anthology',
-        backgroundImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D53D1F5D357587A8D09067AB09FFC7096F837CBAAE02BDC3C0E75814471A1E36/scale?width=1440&aspectRatio=1.78&format=jpeg',
-        titleImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/37D80C5D1AB0BA65C63588311EC60A07342F60F91D402C28B8E1137AF6A30549/scale?width=1440&aspectRatio=1.78',
-        title: 'Assembled',
-        video: 'https://www.youtube.com/embed/aFgtBbSwxxw?si=gEImEhJLbp6bYePs',
-    },
-    {
-        id: 'DYt6dtB7kskEZ1BWDuFT',
-        subTitle: '2006 - 2013 • 5 Seasons',
-        genre: 'Kids, Animation',
-        cardImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/509E4D9F0BF98A9DC4CDD38954380782F6AB2664E503CC7652A37D18D06666BF/scale?width=400&aspectRatio=1.78&format=jpeg',
-        backgroundImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6FF2B403436E6558C08FB44B40AE334A9172FA293A8325940E8E7FF7F696E4D3/scale?width=1440&aspectRatio=1.78&format=jpeg',
-        type: 'trending',
-        titleImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4FF3FCD567F0263430DFC33B9489CE2799AE33B50AD553DE65F03B3EA2E19828/scale?width=1440&aspectRatio=1.78',
-        description:
-            'Mickey entertains preschoolers by inviting them to join him and his friends for a date at the Clubhouse. Using early math learning and problem solving skills, he leads kids on an interactive adventure of learning and fun.',
-        title: 'Mickey mouse',
-        video: 'https://www.youtube.com/embed/83sdwFOL1r8?si=zD6htC6ITT9Llk1W',
-    },
-    {
-        id: 'NhnXE3L1GkyGD3qdUQdE',
-        title: 'The falcon and the winter soldier',
-        description:
-            'Marvel Studios’ “The Falcon and The Winter Soldier” stars Anthony Mackie as Sam Wilson aka The Falcon, and Sebastian Stan as Bucky Barnes aka The Winter Soldier. The pair, who came together in the final moments of “Avengers: Endgame,” team up on a global adventure that tests their abilities—and their patience.',
-        backgroundImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/456A711C19899C881600F6247705E5253EB18C2471D75E5281E1FF6ACB6D2FBA/scale?width=1440&aspectRatio=1.78&format=jpeg',
-        cardImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/341AE85B6C1423B9042B5F2E786645EE551B9D546C3D263B220A4727617FD2B8/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals',
-        titleImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4A67A42FB16607DAE7E22266D3F00181965178ED1884047C2D982EE7D89D3554/scale?width=1440&aspectRatio=1.78',
+            'ASSEMBLED is an immersive series of documentary-style specials examining the creation of Marvel Studios’ thrilling new shows and theatrical releases. ',
         subTitle: '2021 • 1 Season ',
-        genre: 'Science Fiction, Action-Adventure, Buddy',
-        type: 'new',
-        video: 'https://www.youtube.com/embed/IWBsDaFWyTE?si=yIFpEe56TtMJ5bXk',
+        genre: 'Docuseries, Anthology ',
+        backgroundImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D53D1F5D357587A8D09067AB09FFC7096F837CBAAE02BDC3C0E75814471A1E36/scale?width=1440&aspectRatio=1.78&format=jpeg ',
+        titleImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/37D80C5D1AB0BA65C63588311EC60A07342F60F91D402C28B8E1137AF6A30549/scale?width=1440&aspectRatio=1.78 ',
+        title: 'Assembled ',
+        video: 'https://www.youtube.com/embed/aFgtBbSwxxw?si=gEImEhJLbp6bYePs ',
     },
     {
-        id: 'OHPEtjUooT292XpXO2mV',
-        type: 'recommend',
-        backgroundImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B409C2A425D58C32D822EB633C7CAE3DC910DC2FC62D2B1807A0BB092C531E9A/scale?width=1440&aspectRatio=1.78&format=jpeg',
-        description:
-            'While Helen is called on to lead a campaign to bring back the Supers, Bob navigates the day-to-day heroics of “normal” life at home with Violet, Dash and Jack-Jack, whose superpowers are about to be discovered. Their mission is derailed, however, when a new villain emerges with a brilliant and dangerous plot that threatens everything. But with Frozone by their side, the Parrs can take on anything.',
-        title: 'Incredibles 2',
-        subTitle: '2018 • 1h 58m ',
-        genre: ' Science Fiction, Family, Animation, Action-Adventure',
+        id: 'DYt6dtB7kskEZ1BWDuFT ',
+        subTitle: '2006 - 2013 • 5 Seasons ',
+        genre: 'Kids, Animation ',
         cardImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C0A883EAB54DDDC924018D08CF4555EE72B3E9A8C214BDADF29CB82B5E2275D7/scale?width=400&aspectRatio=1.78&format=jpeg',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/509E4D9F0BF98A9DC4CDD38954380782F6AB2664E503CC7652A37D18D06666BF/scale?width=400&aspectRatio=1.78&format=jpeg ',
+        backgroundImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6FF2B403436E6558C08FB44B40AE334A9172FA293A8325940E8E7FF7F696E4D3/scale?width=1440&aspectRatio=1.78&format=jpeg ',
+        type: 'trending ',
         titleImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2041CE26663867FC4EF20377B8625BD629E619452E23BCDB1AB259DD475C2EA1/scale?width=1440&aspectRatio=1.78',
-        video: 'https://www.youtube.com/embed/i5qOzqD9Rms?si=0iEtrvN83iFG2Rum',
-    },
-    {
-        id: 'RR88W6VTzKUziXKUi2qu',
-        subTitle: '1989 - 2019 • 31 Seasons ',
-        genre: 'Comedy, Animation',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4FF3FCD567F0263430DFC33B9489CE2799AE33B50AD553DE65F03B3EA2E19828/scale?width=1440&aspectRatio=1.78 ',
         description:
-            'This animated comedy focuses on the eponymous family in the town of Springfield. The head of the Simpson family, Homer, is not a typical family man. A nuclear-plant employee, he does his best to lead his family but often finds that they are leading him. The family includes loving, blue-haired matriarch Marge, troublemaking son Bart, overachieving daughter Lisa and baby Maggie.',
-        type: 'trending',
-        cardImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg',
-        title: 'The Simpsons',
-        titleImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/47A6FB38D95B3A5EF5583C9EED0B698ED2992CBA4AC7222DD3269DC92DFA03A6/scale?width=1440&aspectRatio=1.78',
-        backgroundImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/223DAE104BE1175F374C4AACAC0EB5B8B0DB9C49839AA2E10085533DDFE07A8E/scale?width=1440&aspectRatio=1.78&format=jpeg',
-        video: 'https://www.youtube.com/embed/gBSkIN4mCT4?si=ZqF389cItHyqA-Ia',
+            'Mickey entertains preschoolers by inviting them to join him and his friends for a date at the Clubhouse. Using early math learning and problem solving skills, he leads kids on an interactive adventure of learning and fun. ',
+        title: 'Mickey mouse ',
+        video: 'https://www.youtube.com/embed/83sdwFOL1r8?si=zD6htC6ITT9Llk1W ',
     },
     {
-        id: 'U8JzMFR0YaiU5qa0wUvz',
-        title: 'Auntie EDNA',
-        backgroundImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/09DAD6A5DAECB6BA9E329FFA896B18978FE4AD5540C070D7973EE53357DD4D24/scale?width=1440&aspectRatio=1.78&format=jpeg',
-        titleImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A31BE6502DC7A3A01DAF58DF7E91AB6FF598A078C8FA88A1DB2D7B7E25439464/scale?width=1440&aspectRatio=1.78',
+        id: 'NhnXE3L1GkyGD3qdUQdE ',
+        title: 'The falcon and the winter soldier ',
         description:
-            'When Bob Parr visits designer Edna Mode for help with his high-energy toddler, she pulls an all-nighter designing a supersuit to harness Jack-Jack’s seemingly limitless powers.',
-        subTitle: '2018 • 7m ',
-        genre: 'Family, Comedy, Animation',
-        type: 'recommend',
+            'Marvel Studios’ “The Falcon and The Winter Soldier” stars Anthony Mackie as Sam Wilson aka The Falcon, and Sebastian Stan as Bucky Barnes aka The Winter Soldier. The pair, who came together in the final moments of “Avengers: Endgame,” team up on a global adventure that tests their abilities—and their patience. ',
+        backgroundImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/456A711C19899C881600F6247705E5253EB18C2471D75E5281E1FF6ACB6D2FBA/scale?width=1440&aspectRatio=1.78&format=jpeg ',
         cardImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/01666FAA085FF29B709DB13975E563E5E047DAAFF7D8F331201CB73F3C30027E/scale?width=400&aspectRatio=1.78&format=jpeg',
-        video: 'https://www.youtube.com/embed/PtXD9yFjHIA?si=XYdW80fOY0ppYi9e',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/341AE85B6C1423B9042B5F2E786645EE551B9D546C3D263B220A4727617FD2B8/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals ',
+        titleImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4A67A42FB16607DAE7E22266D3F00181965178ED1884047C2D982EE7D89D3554/scale?width=1440&aspectRatio=1.78 ',
+        subTitle: '2021 • 1 Season  ',
+        genre: 'Science Fiction, Action-Adventure, Buddy ',
+        type: 'new ',
+        video: 'https://www.youtube.com/embed/IWBsDaFWyTE?si=yIFpEe56TtMJ5bXk ',
     },
     {
-        id: 'We5I4aOrOoMiD2vZTTOM',
-        cardImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F8D1A6FD00ED479CC5E2E5C3E85F10EB05550748BD3C0FE76756614071968541/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals',
-        title: 'Legends',
+        id: 'OHPEtjUooT292XpXO2mV ',
+        type: 'recommend ',
         backgroundImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F6CDB6C0EB2D77EB19BCADA31F85066E001A1F61FA68F4AC3356A73FE076477F/scale?width=1440&aspectRatio=1.78&format=jpeg',
-        type: 'original',
-        titleImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DDFF0FDF457E092EE53149CE7DB5BD14CB97E27B92D2D087E7C687B4E3073DE2/scale?width=1440&aspectRatio=1.78',
-        subTitle: '2021 • 1 Season ',
-        genre: 'Science Fiction, Fantasy, Action-Adventure',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B409C2A425D58C32D822EB633C7CAE3DC910DC2FC62D2B1807A0BB092C531E9A/scale?width=1440&aspectRatio=1.78&format=jpeg ',
         description:
-            'Marvel Studios LEGENDS traces Wanda Maximoff’s evolution from an adversary of The Avengers to a powerful ally, and highlights one special relationship destined to shape her future in unexpected ways…',
-        video: 'https://www.youtube.com/embed/haUHiPl_e3U?si=XfXunGgRwvo8tT5A',
-    },
-    {
-        id: 'Y6s8NyzawwBlEXAZm0Rq',
-        type: 'original',
-        title: 'Soul',
-        titleImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E837DDE901CD036DD87A00F2D63E2F2458FAA798E62BE91F973AECCEA313A67E/scale?width=1440&aspectRatio=1.78',
-        description:
-            "Jamie Foxx leads an all-star cast in this hilarious, heart-filled adventure. Pixar’s 'Soul' introduces Joe, who lands the gig of his life at the best jazz club in town. But one misstep lands Joe in a fantastical place: The Great Before. There, he teams up with soul 22 (Tina Fey), and together they find the answers to some of life’s biggest questions.",
+            'While Helen is called on to lead a campaign to bring back the Supers, Bob navigates the day-to-day heroics of “normal” life at home with Violet, Dash and Jack-Jack, whose superpowers are about to be discovered. Their mission is derailed, however, when a new villain emerges with a brilliant and dangerous plot that threatens everything. But with Frozone by their side, the Parrs can take on anything. ',
+        title: 'Incredibles 2 ',
+        subTitle: '2018 • 1h 58m  ',
+        genre: ' Science Fiction, Family, Animation, Action-Adventure ',
         cardImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E486A02FA7B60669E77958D4FAE567AA5C9C57344006E1D1ADFC080719545166/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals',
-        subTitle: '2020 • 1h 49m',
-        genre: 'Family, Comedy, Fantasy, Animation, Music',
-        backgroundImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/56EEBB17CC25C9FE16E334C34EF96BF7D91EC9BA3B438F88FB24E1C2AE785E03/scale?width=1440&aspectRatio=1.78&format=jpeg',
-        video: 'https://www.youtube.com/embed/xOsLIiBStEs?si=SCBi5ViCQ1VXF0uF',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C0A883EAB54DDDC924018D08CF4555EE72B3E9A8C214BDADF29CB82B5E2275D7/scale?width=400&aspectRatio=1.78&format=jpeg ',
+        titleImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2041CE26663867FC4EF20377B8625BD629E619452E23BCDB1AB259DD475C2EA1/scale?width=1440&aspectRatio=1.78 ',
+        video: 'https://www.youtube.com/embed/i5qOzqD9Rms?si=0iEtrvN83iFG2Rum ',
     },
     {
-        id: 'eXhaR3GHi0XkT4yBio7n',
-        titleImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DD8BBA864E290FBC03A244A488FFC8DC8365FBF2F95A122B1D57BF3772D717FD/scale?width=1440&aspectRatio=1.78',
-        backgroundImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2A509165105A09F9F533E2008B143BCF38D6A5859D0EBB40CCA388772005CD94/scale?width=1440&aspectRatio=1.78&format=jpeg',
+        id: 'RR88W6VTzKUziXKUi2qu ',
+        subTitle: '1989 - 2019 • 31 Seasons  ',
+        genre: 'Comedy, Animation ',
         description:
-            'A young rabbit embarks on a journey to dig the burrow of her dreams, despite not having a clue what she’s doing. Rather than reveal to her neighbors her imperfections, she digs herself deeper and deeper into trouble. After hitting (bed)rock bottom, she learns there is no shame in asking for help.',
+            'This animated comedy focuses on the eponymous family in the town of Springfield. The head of the Simpson family, Homer, is not a typical family man. A nuclear-plant employee, he does his best to lead his family but often finds that they are leading him. The family includes loving, blue-haired matriarch Marge, troublemaking son Bart, overachieving daughter Lisa and baby Maggie. ',
+        type: 'trending ',
         cardImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A13BEC78ACF76FC91A94A1595A62A42CC26DFC6259332C74E061ADA379024E5C/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals',
-        type: 'original',
-        subTitle: '2020 • 6m',
-        genre: 'Family, Animation',
-        title: 'Burrow',
-        video: 'https://www.youtube.com/embed/apx1aUP3MqA?si=-zGXxghRFOdtsMZ_',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg ',
+        title: 'The Simpsons ',
+        titleImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/47A6FB38D95B3A5EF5583C9EED0B698ED2992CBA4AC7222DD3269DC92DFA03A6/scale?width=1440&aspectRatio=1.78 ',
+        backgroundImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/223DAE104BE1175F374C4AACAC0EB5B8B0DB9C49839AA2E10085533DDFE07A8E/scale?width=1440&aspectRatio=1.78&format=jpeg ',
+        video: 'https://www.youtube.com/embed/gBSkIN4mCT4?si=ZqF389cItHyqA-Ia ',
     },
     {
-        id: 'hAhn3dysJkKmELjSUvcD',
-        titleImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E7D8EFFDD30B2A0E205DDD9929207439B21E7595709769F2A23C50457664FFB2/scale?width=1440&aspectRatio=1.78',
+        id: 'U8JzMFR0YaiU5qa0wUvz ',
+        title: 'Auntie EDNA ',
         backgroundImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/09A0617D43282F1A4FA1A97DF6159B4263A8DEB9679A007B61D5E5D6E5D0A2DD/scale?width=1440&aspectRatio=1.78&format=jpeg',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/09DAD6A5DAECB6BA9E329FFA896B18978FE4AD5540C070D7973EE53357DD4D24/scale?width=1440&aspectRatio=1.78&format=jpeg ',
+        titleImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A31BE6502DC7A3A01DAF58DF7E91AB6FF598A078C8FA88A1DB2D7B7E25439464/scale?width=1440&aspectRatio=1.78 ',
+        description:
+            'When Bob Parr visits designer Edna Mode for help with his high-energy toddler, she pulls an all-nighter designing a supersuit to harness Jack-Jack’s seemingly limitless powers. ',
+        subTitle: '2018 • 7m  ',
+        genre: 'Family, Comedy, Animation ',
+        type: 'recommend ',
+        cardImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/01666FAA085FF29B709DB13975E563E5E047DAAFF7D8F331201CB73F3C30027E/scale?width=400&aspectRatio=1.78&format=jpeg ',
+        video: 'https://www.youtube.com/embed/PtXD9yFjHIA?si=XYdW80fOY0ppYi9e ',
+    },
+    {
+        id: 'We5I4aOrOoMiD2vZTTOM ',
+        cardImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F8D1A6FD00ED479CC5E2E5C3E85F10EB05550748BD3C0FE76756614071968541/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals ',
+        title: 'Legends ',
+        backgroundImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F6CDB6C0EB2D77EB19BCADA31F85066E001A1F61FA68F4AC3356A73FE076477F/scale?width=1440&aspectRatio=1.78&format=jpeg ',
+        type: 'original ',
+        titleImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DDFF0FDF457E092EE53149CE7DB5BD14CB97E27B92D2D087E7C687B4E3073DE2/scale?width=1440&aspectRatio=1.78 ',
+        subTitle: '2021 • 1 Season  ',
+        genre: 'Science Fiction, Fantasy, Action-Adventure ',
+        description:
+            'Marvel Studios LEGENDS traces Wanda Maximoff’s evolution from an adversary of The Avengers to a powerful ally, and highlights one special relationship destined to shape her future in unexpected ways… ',
+        video: 'https://www.youtube.com/embed/haUHiPl_e3U?si=XfXunGgRwvo8tT5A ',
+    },
+    {
+        id: 'Y6s8NyzawwBlEXAZm0Rq ',
+        type: 'original ',
+        title: 'Soul ',
+        titleImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E837DDE901CD036DD87A00F2D63E2F2458FAA798E62BE91F973AECCEA313A67E/scale?width=1440&aspectRatio=1.78 ',
+        description:
+            "Jamie Foxx leads an all-star cast in this hilarious, heart-filled adventure. Pixar’s  'Soul' introduces Joe, who lands the gig of his life at the best jazz club in town. But one misstep lands Joe in a fantastical place: The Great Before. There, he teams up with soul 22 (Tina Fey), and together they find the answers to some of life’s biggest questions.",
+        cardImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E486A02FA7B60669E77958D4FAE567AA5C9C57344006E1D1ADFC080719545166/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals ',
+        subTitle: '2020 • 1h 49m ',
+        genre: 'Family, Comedy, Fantasy, Animation, Music ',
+        backgroundImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/56EEBB17CC25C9FE16E334C34EF96BF7D91EC9BA3B438F88FB24E1C2AE785E03/scale?width=1440&aspectRatio=1.78&format=jpeg ',
+        video: 'https://www.youtube.com/embed/xOsLIiBStEs?si=SCBi5ViCQ1VXF0uF ',
+    },
+    {
+        id: 'eXhaR3GHi0XkT4yBio7n ',
+        titleImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DD8BBA864E290FBC03A244A488FFC8DC8365FBF2F95A122B1D57BF3772D717FD/scale?width=1440&aspectRatio=1.78 ',
+        backgroundImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2A509165105A09F9F533E2008B143BCF38D6A5859D0EBB40CCA388772005CD94/scale?width=1440&aspectRatio=1.78&format=jpeg ',
+        description:
+            'A young rabbit embarks on a journey to dig the burrow of her dreams, despite not having a clue what she’s doing. Rather than reveal to her neighbors her imperfections, she digs herself deeper and deeper into trouble. After hitting (bed)rock bottom, she learns there is no shame in asking for help. ',
+        cardImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A13BEC78ACF76FC91A94A1595A62A42CC26DFC6259332C74E061ADA379024E5C/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals ',
+        type: 'original ',
+        subTitle: '2020 • 6m ',
+        genre: 'Family, Animation ',
+        title: 'Burrow ',
+        video: 'https://www.youtube.com/embed/apx1aUP3MqA?si=-zGXxghRFOdtsMZ_ ',
+    },
+    {
+        id: 'hAhn3dysJkKmELjSUvcD ',
+        titleImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E7D8EFFDD30B2A0E205DDD9929207439B21E7595709769F2A23C50457664FFB2/scale?width=1440&aspectRatio=1.78 ',
+        backgroundImg:
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/09A0617D43282F1A4FA1A97DF6159B4263A8DEB9679A007B61D5E5D6E5D0A2DD/scale?width=1440&aspectRatio=1.78&format=jpeg ',
         description:
             "Watch with Premier Access at the same time it's in open theaters and before it's available to all Disney+ subscribers on June 4, 2021.",
         cardImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1E0501AFBAFCA1ABB5D31DBA7D1A913B2A35D70FD3DFD804939B71901577161D/scale?width=400&aspectRatio=1.78&format=jpeg',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1E0501AFBAFCA1ABB5D31DBA7D1A913B2A35D70FD3DFD804939B71901577161D/scale?width=400&aspectRatio=1.78&format=jpeg ',
         subTitle:
-            '2021 • 1h 52m • Family, Fantasy, Animation, Action-Adventure',
-        genre: 'Family, Animation',
-        title: 'Raya',
-        type: 'new',
-        video: 'https://www.youtube.com/embed/1VIZ89FEjYI?si=h76BjgjMa5lrp_xw',
+            '2021 • 1h 52m • Family, Fantasy, Animation, Action-Adventure ',
+        genre: 'Family, Animation ',
+        title: 'Raya ',
+        type: 'new ',
+        video: 'https://www.youtube.com/embed/1VIZ89FEjYI?si=h76BjgjMa5lrp_xw ',
     },
     {
-        id: 'tgw0vNtyWD7uVg9auDRQ',
-        title: 'A tail of two kitties',
+        id: 'tgw0vNtyWD7uVg9auDRQ ',
+        title: 'A tail of two kitties ',
         titleImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/50B933E83609BEEFEDFA177A6D96DBFA7804C14F70A0B5AB314E892E65498ACF/scale?width=1440&aspectRatio=1.78',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/50B933E83609BEEFEDFA177A6D96DBFA7804C14F70A0B5AB314E892E65498ACF/scale?width=1440&aspectRatio=1.78 ',
         description:
-            'Garfield is adopted by a greedy Lord with nefarious plans to open up his estate as a hunting ground.',
-        subTitle: '2006 • 1h 19m ',
-        genre: 'Family, Comedy, Kids',
+            'Garfield is adopted by a greedy Lord with nefarious plans to open up his estate as a hunting ground. ',
+        subTitle: '2006 • 1h 19m  ',
+        genre: 'Family, Comedy, Kids ',
         cardImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B983FF22BA64B6E19E0D3267280819B26758CFB765E8BED1099D11E320612953/scale?width=400&aspectRatio=1.78&format=jpeg',
-        type: 'new',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B983FF22BA64B6E19E0D3267280819B26758CFB765E8BED1099D11E320612953/scale?width=400&aspectRatio=1.78&format=jpeg ',
+        type: 'new ',
         backgroundImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4E9E81584305009D6385F6178D4B6930E97CD6EC4A3B53C818400DEF778FFA9A/scale?width=1440&aspectRatio=1.78&format=jpeg',
-        video: 'https://www.youtube.com/embed/1u0rQ7J3oS4?si=FpzRgBkLRhNQqZR_',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4E9E81584305009D6385F6178D4B6930E97CD6EC4A3B53C818400DEF778FFA9A/scale?width=1440&aspectRatio=1.78&format=jpeg ',
+        video: 'https://www.youtube.com/embed/1u0rQ7J3oS4?si=FpzRgBkLRhNQqZR_ ',
     },
     {
-        id: 'ysj2ARAFC9OkGA8dpgtS',
-        subTitle: '2015 • 1h 35m ',
-        genre: 'Coming of Age, Family, Animation',
+        id: 'ysj2ARAFC9OkGA8dpgtS ',
+        subTitle: '2015 • 1h 35m  ',
+        genre: 'Coming of Age, Family, Animation ',
         description:
-            'When 11-year-old Riley moves to a new city, her Emotions team up to help her through the transition. Joy, Fear, Anger, Disgust and Sadness work together, but when Joy and Sadness get lost, they must journey through unfamiliar places to get back home.',
+            'When 11-year-old Riley moves to a new city, her Emotions team up to help her through the transition. Joy, Fear, Anger, Disgust and Sadness work together, but when Joy and Sadness get lost, they must journey through unfamiliar places to get back home. ',
         backgroundImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/49B92C046117E89BC9243A68EE277A3B30D551D4599F23C10BF0B8C1E90AEFB6/scale?width=1440&aspectRatio=1.78&format=jpeg',
-        type: 'recommend',
-        title: 'Inside Out',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/49B92C046117E89BC9243A68EE277A3B30D551D4599F23C10BF0B8C1E90AEFB6/scale?width=1440&aspectRatio=1.78&format=jpeg ',
+        type: 'recommend ',
+        title: 'Inside Out ',
         titleImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5C647DF3FFBFA343CFEA84AC715148F25F9E86F398B408010CC403E7654FB908/scale?width=1440&aspectRatio=1.78',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5C647DF3FFBFA343CFEA84AC715148F25F9E86F398B408010CC403E7654FB908/scale?width=1440&aspectRatio=1.78 ',
         cardImg:
-            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/87F1DCF36049558159913ADFD18A800DE1121771540033EC3A7651B8FE154CEB/scale?width=400&aspectRatio=1.78&format=jpeg',
+            'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/87F1DCF36049558159913ADFD18A800DE1121771540033EC3A7651B8FE154CEB/scale?width=400&aspectRatio=1.78&format=jpeg ',
         video: 'https://www.youtube.com/embed/k1oXx4delIY?si=j0zxF1IcoorEtPPI',
     },
 ];

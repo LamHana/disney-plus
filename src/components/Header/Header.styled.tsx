@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { AppBar, Button } from '@mui/material';
 export const Logo = styled.div`
     margin-right: 10px;
@@ -8,8 +8,19 @@ export const Logo = styled.div`
     /* width: 80px; */
 `;
 
-export const Navbar = styled(AppBar)`
-    background: #090b13 !important;
+export const Navbar = styled(AppBar)<{ $isDarkMode: boolean }>`
+    background: #fff !important;
+    button {
+        color: #090b13 !important;
+    }
+    ${(props) =>
+        props.$isDarkMode &&
+        css`
+            button {
+                color: #fff !important;
+            }
+            background: #090b13 !important;
+        `};
 `;
 
 export const ButtonNav = styled(Button)`

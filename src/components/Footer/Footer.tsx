@@ -1,5 +1,7 @@
+import { FooterContainer } from './Footer.styled';
+
 const Footer = () => {
-    return <div>Footer</div>;
+    return <FooterContainer>Disney+</FooterContainer>;
 };
 
 export default Footer;

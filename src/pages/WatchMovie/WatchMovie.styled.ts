@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 
+export const Container = styled.main`
+    position: relative;
+    min-height: calc(100vh - 61.6px - 68.5px);
+    padding: 0 calc(3.5vw + 5px);
+    overflow: hidden;
+`;
+
 export const Background = styled.div`
     position: fixed;
     top: 0;
@@ -45,6 +52,6 @@ export const ImageTitle = styled.div`
 
 export const Video = styled.div`
     position: absolute;
-    left: 5%;
-    top: 20%;
+    top: 50%;
+    transform: translateY(-50%);
 `;

@@ -31,7 +31,12 @@ const CarouselBanner = () => {
     return (
         <Styled.CarouselBanner>
             {banners.map((banner) => {
-                return <Styled.Banner src={banner.img} />;
+                return (
+                    <Styled.Banner
+                        src={banner.img}
+                        key={banner.id}
+                    />
+                );
             })}
         </Styled.CarouselBanner>
     );

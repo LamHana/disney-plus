@@ -5,6 +5,7 @@ export const Banner = styled.img`
     width: 100%;
     height: 100%;
     border-radius: 4px;
+    overflow: hidden;
     box-shadow: rgb(0 0 0 / 69%) 0 26px 30px -10px,
         rgb(0 0 0 / 73%) 0px 16px 10px -10px;
     transition: 0.3s ease all;
@@ -14,6 +15,7 @@ export const Banner = styled.img`
 `;
 
 export const CarouselBanner = styled(Carousel)`
+    width: 100%;
     margin-top: 20px;
     svg {
         font-size: 10px;
