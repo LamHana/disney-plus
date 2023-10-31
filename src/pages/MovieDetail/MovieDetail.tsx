@@ -1,7 +1,7 @@
 import { Box, Container } from '@mui/material';
 import * as Styled from './MovieDetail.styled';
 import { useAppSelector } from '@hooks/index';
-import { selectMovies } from '@components/Movie/slice/MovieSlice';
+import { selectMovies } from '@components/Movie/slice/movieSlice';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import { useNavigate, useParams } from 'react-router-dom';
 import { MovieType } from '@components/Movie/MovieList';
@@ -35,7 +35,7 @@ const MovieDetail = ({ open, handleClose }: MovieDetailProps) => {
 
     useEffect(() => {
         getMovieDetail();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [movieId]);
 
     const navigate = useNavigate();

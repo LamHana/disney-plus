@@ -27,10 +27,13 @@ const movieSlice = createSlice({
         setMovies: (state, action) => {
             state.movies = action.payload;
         },
+        setMovieId: (state, action) => {
+            state.movies.id = action.payload;
+        },
     },
 });
 
-export const { setMovies } = movieSlice.actions;
+export const { setMovies, setMovieId } = movieSlice.actions;
 export const selectMovies = (state: { movie: InitialStateType }) =>
     state.movie.movies;
 export default movieSlice.reducer;

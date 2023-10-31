@@ -22,6 +22,9 @@ export const Table = styled(DataGrid)`
     .MuiDataGrid-columnHeaderTitle {
         color: white;
     }
+    .MuiTablePagination-actions svg {
+        color: white;
+    }
 
     .MuiSelect-iconStandard {
         color: white;
@@ -93,6 +96,44 @@ export const Btn = styled.button`
         }
         svg {
             color: #000;
+        }
+    }
+`;
+
+export const BtnLight = styled.button`
+    /* CSS */
+
+    background-color: #fff;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    vertical-align: middle;
+    transition: all 0.2s ease 0s;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+
+    &:active,
+    &:hover {
+        outline: 0;
+    }
+
+    &:hover {
+        background: rgba(0, 0, 0, 0.8);
+        span {
+            color: #fff;
+        }
+        svg {
+            color: #fff;
         }
     }
 `;

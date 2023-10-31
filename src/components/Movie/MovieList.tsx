@@ -1,7 +1,7 @@
 import { Content, Wrap, Container } from './MovieStyle';
 import { Link } from 'react-router-dom';
 import { useAppDispatch } from '@hooks/index';
-import { setMovies } from './slice/MovieSlice';
+import { setMovies } from './slice/movieSlice';
 import { useState, useEffect } from 'react';
 import requests from '@/utils/movieApi';
 import Loading from '@components/Loading/Loading';

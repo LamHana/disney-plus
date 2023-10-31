@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { MovieType } from '@components/Movie/MovieList';
 import { useEffect, useState } from 'react';
 import { useAppSelector } from '@hooks/index';
-import { selectMovies } from '@components/Movie/slice/MovieSlice';
+import { selectMovies } from '@components/Movie/slice/movieSlice';
 import requests from '@/utils/movieApi';
 
 const WatchMovie = () => {

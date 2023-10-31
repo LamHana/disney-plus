@@ -1,4 +1,5 @@
-import { get } from './apiCaller';
+import { MovieType } from '@components/Movie/MovieList';
+import { get, post, put, remove } from './apiCaller';
 
 const requests = {
     getAllMovie: async () => {
@@ -21,6 +22,18 @@ const requests = {
                 console.log(err);
                 return err;
             });
+    },
+    createMovie: (movie: MovieType) => {
+        const endpoint = `/movie`;
+        return post(endpoint, movie, {});
+    },
+    updateMovie: (movie: MovieType) => {
+        const endpoint = `/movie/${movie.id}`;
+        return put(endpoint, movie, {});
+    },
+    deleteMovie: (movieId: string) => {
+        const endpoint = `/movie/${movieId}`;
+        return remove(endpoint, {}, {});
     },
 };
 

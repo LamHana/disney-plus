@@ -4,9 +4,18 @@ import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import { Body, Container } from './AddMovie.styled';
 import { useFormik } from 'formik';
-import { Btn } from '@pages/Dashboard/Dashboard.styled';
+import {
+    AddMovie as FlexEnd,
+    BtnLight,
+} from '@pages/Dashboard/Dashboard.styled';
+import requests from '@/utils/movieApi';
+import { toastError, toastSuccess } from '@components/Toast';
+import configs from '@configs/index';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import { useNavigate } from 'react-router-dom';
 
 export default function AddMovie() {
+    const navigate = useNavigate();
     const formik = useFormik({
         initialValues: {
             title: '',
@@ -21,8 +30,25 @@ export default function AddMovie() {
             description: '',
         },
 
-        onSubmit: (values) => {
+        onSubmit: async (values) => {
             console.log(values);
+            try {
+                await requests.createMovie({
+                    id: '',
+                    backgroundImg: values.backgroundImg,
+                    description: values.description,
+                    cardImg: values.cardImg,
+                    type: values.type,
+                    title: values.title,
+                    titleImg: values.titleImg,
+                    subTitle: `${values.year} • ${values.runningTime}`,
+                    genre: values.genre,
+                    video: values.video,
+                });
+                toastSuccess('Add successfully');
+            } catch (error) {
+                toastError(error);
+            }
         },
     });
     return (
@@ -43,6 +69,7 @@ export default function AddMovie() {
                     </Typography>
 
                     <form
+                        style={{ marginBottom: '50px' }}
                         onSubmit={(e) => {
                             e.preventDefault(); // Prevent the default form submission
                             formik.handleSubmit(); // Trigger Formik's submission logic
@@ -198,12 +225,37 @@ export default function AddMovie() {
                                     onChange={formik.handleChange}
                                 />
                             </Grid>
-                            <Grid
-                                item
-                                xs={12}
-                            >
-                                <Btn type="submit">add</Btn>
-                            </Grid>
+                            <FlexEnd>
+                                <Grid
+                                    item
+                                    xs={12}
+                                    sm={4}
+                                >
+                                    <BtnLight
+                                        onClick={() =>
+                                            navigate(configs.routes.dashboard)
+                                        }
+                                    >
+                                        <ArrowBackIcon />
+                                        <span>Back to dashboard</span>
+                                    </BtnLight>
+                                </Grid>
+                                <Grid
+                                    item
+                                    xs={12}
+                                    sm={2}
+                                >
+                                    <BtnLight
+                                        type="submit"
+                                        style={{
+                                            paddingLeft: '40px',
+                                            paddingRight: '40px',
+                                        }}
+                                    >
+                                        <span>Add</span>
+                                    </BtnLight>
+                                </Grid>
+                            </FlexEnd>
                         </Grid>
                     </form>
                 </React.Fragment>

@@ -1,4 +1,4 @@
-import movieReducer from '@components/Movie/slice/MovieSlice';
+import movieReducer from '@components/Movie/slice/movieSlice';
 import userReducer from '@components/Header/slide/userSlice';
 
 import { configureStore } from '@reduxjs/toolkit';
